@@ -4,9 +4,9 @@ import phoneIcon from "../assets/template2/white phone.svg"
 
 const Template2 = () => {
     return (
-        <section className='w-[400px]'>
+        <section className='w-[400px] h-[400px]'>
             <div
-                className="h-52"
+                className="h-[210px]"
                 style={{
                     backgroundImage: `url(${rectangle})`,
                     backgroundPosition: "center",
@@ -21,18 +21,18 @@ const Template2 = () => {
                     </div>
 
                     <div
-                        className="px-6 py-4 flex w-[307px] text-white text-xl font-semibold absolute -bottom-16 bg-t2-primary-color"
-                        style={{ clipPath: 'polygon(0 0, 77% 0, 100% 100%, 0 100%)' }}
+                        className="px-9 py-4 flex w-[307px] text-white text-xl font-semibold absolute -bottom-16 bg-t2-primary-color"
+                        style={{ clipPath: 'polygon(0 0, 80% 0, 100% 100%, 0 100%)' }}
                     >
                         <h2 className="w-56">Boost Your Business with Targeted Social Media Posts Today!!</h2>
                     </div>
                 </div>
             </div>
-            <div className="h-[190px] bg-[#023172] pt-14">
-                <div className="px-9 py-6 text-[15px] bg-t2-secondary-color text-white">
+            <div className="bg-[#023172] pt-[60px]">
+                <div className="px-9 py-5 text-[15px] bg-t2-secondary-color text-white">
                     <p>Engage your audience and amplify your brand’s message with strategic, high-impact social media posts</p>
                 </div>
-                <div className="grid grid-cols-2 justify-between items-center bg-t2-primary-color">
+                <div className="h-full grid grid-cols-2 justify-between items-center bg-t2-primary-color">
                     <div
                         className="h-full grid place-content-center w-40 text-[10px] text-t2-secondary-color bg-white"
                         style={{ clipPath: 'polygon(0 0, 80% 0, 100% 100%, 0% 100%)' }}

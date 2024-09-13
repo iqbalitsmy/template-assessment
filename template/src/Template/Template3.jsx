@@ -4,7 +4,7 @@ import phoneIcon from "../assets/template3/phone-icon.svg"
 
 const Template3 = () => {
     return (
-        <section className='w-[400px] mb-16 bg-white'>
+        <section className='w-[400px] bg-white'>
             <div className='relative mb-10'>
                 <div className='grid grid-cols-2 justify-between'>
                     {/* brand logo */}
