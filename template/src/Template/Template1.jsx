@@ -9,6 +9,7 @@ const Template1 = () => {
   return (
     <section className='w-fit bg-t1-primary-color'>
       <div>
+        {/* left top corner shape */}
         <div>
           <img src={shape1} alt="" />
         </div>
@@ -21,12 +22,14 @@ const Template1 = () => {
             backgroundSize: "center"
           }}
         >
+          {/* logo */}
           <div className="pt-8 text-white text-right flex justify-end items-center gap-2">
             <h1 className="leading-none text-[7px] font-bold uppercase">Social Boost <br className="" />Creation</h1>
             <img className="h-[25px] w-auto" src={logo} alt="" />
           </div>
         </div>
       </div>
+      {/* content */}
       <div className="mx-6 mb-4 flex justify-between gap-8">
         {/* empty box */}
         <div>
@@ -45,6 +48,7 @@ const Template1 = () => {
           </div>
         </div>
       </div>
+      {/* footer */}
       <div className="">
         <div
           className="px-6 h-[60px] grid justify-end"
@@ -55,6 +59,7 @@ const Template1 = () => {
             backgroundSize: "center"
           }}
         >
+          {/* information */}
           <div>
             <div className="flex gap-2 items-center">
               <div className="text-white text-right leading-none">
@@ -67,6 +72,7 @@ const Template1 = () => {
             </div>
           </div>
         </div>
+        {/* left bottom corner shape */}
         <div>
           <img src={shape4} alt="" />
         </div>

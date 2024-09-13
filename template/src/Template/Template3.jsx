@@ -4,7 +4,7 @@ import phoneIcon from "../assets/template3/phone-icon.svg"
 
 const Template3 = () => {
     return (
-        <section className='w-[400px] bg-white'>
+        <section className='w-[400px] h-fit bg-white'>
             <div className='relative mb-10'>
                 <div className='grid grid-cols-2 justify-between'>
                     {/* brand logo */}
@@ -39,7 +39,7 @@ const Template3 = () => {
                     <p className='w-[182px] text-white text-[12px]'>Engage your audience and amplify your brand’s message with strategic, high-impact social media posts</p>
                 </div>
             </div>
-            <div className='flex justify-between h-[117px] relative'>
+            <div className='mt-auto flex justify-between h-[117px] relative'>
                 {/* information */}
                 <div className="pl-6 leading-none flex items-center gap-2 z-10">
                     <img className='h-7 w-7' src={phoneIcon} alt="" />
@@ -49,13 +49,13 @@ const Template3 = () => {
                     </div>
                 </div>
                 {/* yellow box */}
-                <div 
-                className='bg-t3-primary-color h-[117px] w-[231px] grid place-content-center'
-                style={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 16% 100%)' }}
+                <div
+                    className='bg-t3-primary-color h-full w-[231px] grid place-content-center'
+                    style={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 16% 100%)' }}
                 >
-                    <div 
-                    className='p-3 px-5 bg-t3-secondary-color text-white text-[10px]'
-                    style={{ clipPath: 'polygon(0 0, 90% 0, 100% 100%, 10% 100%)' }}
+                    <div
+                        className='p-3 px-5 bg-t3-secondary-color text-white text-[10px]'
+                        style={{ clipPath: 'polygon(0 0, 90% 0, 100% 100%, 10% 100%)' }}
                     >
                         <p>Start posting today!</p>
                     </div>
